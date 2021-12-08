@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: ibf2021.TestBankAccount
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.003 s <<< FAILURE! - in ibf2021.TestBankAccount
+testGetTransactions(ibf2021.TestBankAccount)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.IllegalArgumentException
+	at ibf2021.TestBankAccount.testGetTransactions(TestBankAccount.java:46)
+
+testWithdraw(ibf2021.TestBankAccount)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalArgumentException
+	at ibf2021.TestBankAccount.testWithdraw(TestBankAccount.java:38)
+
+testDeposit(ibf2021.TestBankAccount)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalArgumentException
+	at ibf2021.TestBankAccount.testDeposit(TestBankAccount.java:28)
+
